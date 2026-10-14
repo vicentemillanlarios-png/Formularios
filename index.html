@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Formularios</title>
+    <style>
+        label 
+        {font-family: Arial, Helvetica, sans-serif;
+        color: blue}
+    </style>
+
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="procesa.php" method="post">
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" name="nombre">
+        </p>
+        <p>
+            <label for="ape">Apellidos:</label>
+            <input id="ape" type="text" name="apellidos">
+        </p>
+    </fieldset>
+    <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
